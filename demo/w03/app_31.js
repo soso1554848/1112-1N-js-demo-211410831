@@ -32,7 +32,7 @@ const reviews = [
     id: 5,
     name: 'CAI,BING-SHI',
     job: 'elephant',
-    img: 'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
+    img: './me.jpg',
     text: '早上好中國，我最喜歡冰淇淋。 ',
   },
 ];
