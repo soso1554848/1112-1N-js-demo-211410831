@@ -2,7 +2,7 @@ const menu = [
     {
         id: 1,
         title: 'egg toast',
-        category: 'breakfast',
+        category: 'dessert',
         price: 6.99,
         img:'./images/my-1.jpg',
         remote_img:'',
@@ -83,7 +83,8 @@ const displayMenuItems = (menu) => {
 }
 
 
-const categories = ['all', 'breakfast', 'lunch', 'dinner', 'shakes'];
+//const categories = ['all', 'breakfast', 'lunch', 'dinner', 'shakes'];
+const categories = ['all', ...new Set(menu.map((item) => item.category))];
 
 const displayMenuButtons = () => {
     let menuButtons = categories.map((category) =>{
