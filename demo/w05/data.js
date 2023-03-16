@@ -2,7 +2,7 @@ export const menu = [
     {
         id: 1,
         title: 'egg toast',
-        category: 'dessert',
+        category: 'breakfast',
         price: 6.99,
         img:'./images/my-1.jpg',
         remote_img:'',
@@ -29,7 +29,7 @@ export const menu = [
     {
         id: 4,
         title: 'eggs',
-        category: 'breakfast',
+        category: 'dessert',
         price: 13.59,
         img:'./images/item-1.jpeg',
         remote_img:'',
